@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+.navbar{
+  position: relative;
+  top: 0px;
+  overflow: hidden;
+}
+body{
+    font-family: 'Exo', sans-serif;
+    background-image: linear-gradient(315deg, #89b8ff, #bec5c2);
+    }
+button{
+    float: center;
+    background-color: white;
+  }
+ .formbox1,.formbox,.box{
+    display: inline-flex;
+    padding:20px; 
+   } 
+  fieldset{
+margin-top: 50px;
+  }
+  
+  .flip-box {
+    background-color:white ;
+  
+    width: 600px;
+    height: 450px;
+    
+    perspective: 1000px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateX(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-image:url("https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.8531079832183!2d77.54905927369195!3d12.981245514669528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3df1edd18559%3A0x1476d80dea9fd303!2sISM%20UNIV-Best%20Embedded%20Systems%20Course%20Training%20with%20Placements%7C%20Full%20stack%20Developer%20course%7C%20Software%20Testing%20course%7C%20IoT!5e0!3m2!1sen!2sin!4v1694617107560!5m2!1sen!2sin");
+    
+  }
+  
+  .flip-box-back {
+  
+    
+    transform: rotateX(180deg);
+  }
+  
+  
+/* carousal images */
+.carousal .carousal-inner{
+    height:500px;
+    position: absolute;
+  
+    }
+    .carousal-inner .carousal-item .img{
+    min-height:200px;
+    object-fit:cover
+    
+    }
+    
+    @media(max-width:768px){
+    .carousal .carousal-item{
+    
+    height:auto
+     
+  }
+    }
+
+    #carouselExampleFade{
+      top: 10px;
+      left: 160px;
+
+    .vertical-center {
+      margin-right: 170px;
+      position: absolute;
+      top: 110px;
+     
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    
+    }
+  }
+    /* hover gallery */
+
+    .containerfoot{
+      display: flex;
+      background: linear-gradient(109.5deg, rgb(13, 50, 136) 9.4%, rgb(79, 80, 83) 78.4%);
+      color: white;
+  }        
+  .boxe{
+      padding-left: 100px;
+  }
+  .fa {
+padding: 10px;
+font-size: 30px;
+width: 35px;
+text-align: center;
+text-decoration: none;
+margin: 5px ;}
+
+.fa:hover {
+opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-google {
+background: #dd4b39;
+color: white;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
